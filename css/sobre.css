@@ -1,0 +1,76 @@
+
+  
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+        font-family: "Press Start 2P", system-ui;
+        font-weight: 700;
+        font-style: normal;
+}
+
+body{
+    background-image: url(/SitePortifolio/src/6dc11726798611a9e2fa758a02188bf9.gif);
+}
+.interface{
+     margin: 5% 10%;
+
+}
+
+header{
+    padding: 40px 4%;
+}
+
+header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header a{
+    color: rgb(0, 117, 0);
+    text-shadow: 0 0 0.125em rgba(0, 0, 0, 0.5), 0 0 0.25em currentColor;
+    cursor: pointer;
+    display: inline-block;
+}
+ 
+header a:hover{
+    color: rgb(0, 255, 0);
+    transform: scale(1.05);
+    transform: .2s;
+    text-shadow: 0px 0px 5px rgb(83, 255, 83);
+    
+}
+header nav ul{
+    list-style-type: none;
+}
+
+header nav li{
+    display: inline-block;
+    padding: 0 40px;
+}
+
+.sobreMim{
+    margin: 5%;
+    width: 70%vw;
+    height: 70vh;
+}
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(0, 255, 0);
+    font-size: 30px;
+    text-shadow: 0px 0px 4px rgb(0, 0, 0);
+}
+p{
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    color: rgb(0, 255, 0);
+    font-size: 20px;
+    line-height: auto;
+    margin: 5%;
+    text-shadow: 0px 0px 4px rgb(0, 0, 0);
+}
