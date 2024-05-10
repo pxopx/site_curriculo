@@ -11,7 +11,7 @@
 }
 
 body{
-    background-image: url(src/6dc11726798611a9e2fa758a02188bf9.gif);
+    background-image: url(/SitePortifolio/src/6dc11726798611a9e2fa758a02188bf9.gif);
 }
 .interface{
      margin: 5% 10%;
@@ -49,4 +49,28 @@ header nav ul{
 header nav li{
     display: inline-block;
     padding: 0 40px;
+}
+
+.sobreMim{
+    margin: 10%;
+    width: 70%vw;
+    height: 70vh;
+}
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(0, 255, 0);
+    font-size: 30px;
+    text-shadow: 0px 0px 4px rgb(0, 0, 0);
+}
+p{
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    color: rgb(0, 255, 0);
+    font-size: 20px;
+    line-height: auto;
+    margin: 5%;
+    text-shadow: 0px 0px 4px rgb(0, 0, 0);
 }
