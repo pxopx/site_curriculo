@@ -11,7 +11,7 @@
 }
 
 body{
-    background-image: url(./../src/6dc11726798611a9e2fa758a02188bf9.gif);
+    background-image: url(./../img/background.gif);
 }
 .interface{
      margin: 5% 10%;
@@ -49,4 +49,34 @@ header nav ul{
 header nav li{
     display: inline-block;
     padding: 0 40px;
+}
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(0, 255, 0);
+    font-size: 30px;
+    text-shadow: 0px 0px 4px rgb(0, 0, 0);
+}
+.displayProjetos{
+    margin: 5%;
+    width: 70%vw;
+    height: 70vh;
+}
+p1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+    color: rgb(0, 255, 0);
+    font-size: 20px;
+    text-shadow: 0px 0px 4px rgb(0, 0, 0);
+}
+p2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(0, 255, 0);
+    font-size: 20px;
+    text-shadow: 0px 0px 4px rgb(0, 0, 0);
 }
